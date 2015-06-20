@@ -78,7 +78,7 @@ public class Hd2csv {
             writer.append(Utility.dfs.print(millis));
             for (String item : options.items) {
                 writer.append(csvSeparator);
-                writer.append("" + values.get(item));
+                writer.append(values.get(item) == null ? "" : "" + values.get(item));
             }
             writer.append(System.lineSeparator());
             writer.flush();
