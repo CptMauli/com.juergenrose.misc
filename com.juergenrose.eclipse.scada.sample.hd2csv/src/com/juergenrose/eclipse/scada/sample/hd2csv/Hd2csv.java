@@ -59,7 +59,7 @@ public class Hd2csv {
 
         Writer writer;
         if (options.file != null) {
-            writer = new BufferedWriter(new FileWriter(options.file));
+            writer = new BufferedWriter(new FileWriter(options.file, options.append));
         } else {
             writer = new BufferedWriter(new OutputStreamWriter(System.out));
         }
