@@ -48,6 +48,9 @@ public class Options {
     @Option(name = "-w", usage = "write to file (default is stdout)", aliases = { "--file" })
     File file;
 
+    @Option(name = "-x", usage = "write as excel file (default is csv)", aliases = { "--as-excel" })
+    boolean asExcel = false;
+
     @Option(name = "-e", usage = "append to given file (implies skipping header)", aliases = { "--append" })
     boolean append;
 

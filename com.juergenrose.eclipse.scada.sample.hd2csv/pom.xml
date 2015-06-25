@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.juergenrose.eclipse.scada.sample</groupId>
 	<artifactId>com.juergenrose.eclipse.scada.sample.hd2csv</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 
 	<repositories>
 		<repository>
@@ -87,6 +87,11 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>18.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.12</version>
 		</dependency>
 	</dependencies>
 
